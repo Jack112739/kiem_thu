@@ -1,6 +1,6 @@
-#function relation description
-input two int x, y
-output string as bellow
+##function relation description 
+input two int x, y 
+output string as bellow 
 
 if x == y return "same"
 if 0 < |x - y| <= 3 return "very close"
