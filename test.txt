@@ -1,0 +1,12 @@
+test 1: x = 5, y = 5 
+    expected : "same" output: "same"                           v
+test 2: x = 4, y = 5
+    expected: "very close", output: "very close"               v
+test 3: x = 4, y=10
+    expected "quite close", output: "quite close"              v
+test 4: x = 4, y = 90
+    expected: "typical distance" output: "typical distance"    v
+test 5: x = 4  y = 900
+    expected: "far" output: "far"                              v
+test 6: x = 4  y = 3 
+    expected "very close" output "very far"                    x
